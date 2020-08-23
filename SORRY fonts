@@ -1,0 +1,20 @@
+# SORRY
+import sys
+sys.setrecursionlimit(504)
+print(sys.getrecursionlimit())
+i=0
+def sorry():
+    global i
+    i+=1
+    print('SORRY',i)
+    print('SORRy',i+1)
+    print('SORry',i+2)
+    print('SOrry',i+3)
+    print('Sorry',i+4)
+    print('sorry',i+5)
+    print('sorrY',i+6)
+    print('sorRY',i+7)
+    print('soRRY',i+8)
+    print('sORRy',i+9)
+    sorry()
+sorry()
